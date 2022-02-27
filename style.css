@@ -1,0 +1,111 @@
+body {
+background-color: #E0E4DD ;
+color : #99A799 ;
+font-family: 'Noto Serif Display', serif;
+}
+
+h1,h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  color: #D3E4CD;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  }
+
+h2 {
+color: #ADC2A9;
+font-weight: 600;
+}
+
+a{
+  text-decoration: none;
+  color:#D3E4CD ;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color:#ADC2A9 ;
+}
+
+#image-circle{
+  border-radius: 50%;
+  width: 200px;
+  border: 2px solid #E0E4DD;
+}
+
+.pictures{
+  border: 5px solid #99A799;
+  width: 200px;
+}
+
+.container{
+width: 550px;
+margin: 40 px auto;
+}
+
+@media (max-width: 500px){
+  .container {
+  width: 400px}
+}
+
+@media (max-width: 760px){
+  .container {
+  width: 600px}
+}
+
+.card-white{
+ margin: 20px 250px;
+ background: white;
+ padding: 25px;
+ border-radius: 4px;
+ text-align: center;
+ box-shadow: 0 10px 30px rgba(0,0,0,.1)
+}
+
+#intro-bannière{
+ background: #99A799;
+ padding: 25px;
+ border-radius: 4px;
+ text-align: center;
+ box-shadow: 0 10px 30px rgba(0,0,0,.1)
+}
+
+#intro-bannière p {
+  color: white;
+  margin-bottom: 40px;
+ font-style:italic;
+}
+
+.btn-green{
+  background-color:white;
+  color: #99A799;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.btn-green:hover {
+  background-color:#99A799 ;
+  color: white;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+}
+
